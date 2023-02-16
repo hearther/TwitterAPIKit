@@ -7,7 +7,5 @@ Pod::Spec.new do |s|
   s.authors = "mironal"
   s.platform = :ios, "12.0"
   s.source  = { :git => "https://github.com/hearther/TwitterAPIKit.git", :tag => "0.2.3" }
-  s.source_files = 'Sources/TwitterAPIKit'
-  s.license = { :type => "MIT license", :text => "https://github.com/mironal/TwitterAPIKit/blob/main/LICENSE "}
-  s.frameworks = "CoreText", "QuartzCore", "CoreData", "CoreGraphics", "Foundation", "Security", "UIKit", "CoreMedia", "AVFoundation", "SafariServices"
-end
+  s.source_files = 'Sources/TwitterAPIKit/*/*.*'
+  s.license = { :type => "MIT license", :text => "https://github.com/mironal/TwitterAPIKit/blob/main/LICENSE "}end
